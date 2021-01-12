@@ -1,7 +1,7 @@
-const { } = require('./exercises');
+const { add } = require('./exercises');
 
-describe.skip("Test", () => {
-  it("passes", () => {
-    expect(true).toEqual(true)
+describe("Test", () => {
+  it("add 1,2", () => {
+    expect(add(1,2)).toEqual(2)
   })
 })
