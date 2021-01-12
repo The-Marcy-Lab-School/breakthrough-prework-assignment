@@ -1,9 +1,7 @@
-# Problem Set Name here
-## Problem Set Topic here
+# Prework
+## Javascript
 
 ### Directions
-1. Clone this lab. 
-
 2. From your project's root folder, run `npm install` to load project dependencies.
 
 3. Your coding files are: 
@@ -12,8 +10,6 @@
     * `index.html` You can optionally open this file in the browser to run your code.
 
 4. Test your code often by running `npm test`. 
-
-5. Check for style by running `eslint exercises.js` in the terminal. If you get an error `eslint: command not found`, run `npm install -g eslint` first.
 
 6. Push your final commits and submit your URL through Canvas.
 
