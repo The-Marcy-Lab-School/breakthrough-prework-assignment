@@ -1,0 +1,26 @@
+{
+  "name": "problem-set-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Marcy-Lab-School/problem-set-template.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/The-Marcy-Lab-School/problem-set-template/issues"
+  },
+  "homepage": "https://github.com/The-Marcy-Lab-School/problem-set-template#readme",
+  "dependencies": {
+    "eslint": "^7.17.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "jest": "^26.6.3"
+  },
+  "devDependencies": {},
+  "description": ""
+}
