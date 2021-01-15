@@ -44,7 +44,7 @@ describe("Tests for Javascript Prework", () => {
     ];
 
     test.each(cases)('%s', (listOfNumbers, expected) => {
-      expect(runningTotal(listOfNumbers)).toBe(expected);
+      expect(runningTotal(listOfNumbers)).toStrictEqual(expected);
     });
   });
 
@@ -71,7 +71,7 @@ describe("Tests for Javascript Prework", () => {
     ];
 
     test.each(cases)('%s', (phrase, expected) => {
-      expect(wordSizes(phrase)).toBe(expected);
+      expect(wordSizes(phrase)).toStrictEqual(expected);
     });
   });
 
@@ -82,7 +82,7 @@ describe("Tests for Javascript Prework", () => {
     ];
 
     test.each(cases)('%s %s', (arr1, arr2, expected) => {
-      expect(union(arr1, arr2)).toBe(expected);
+      expect(union(arr1, arr2)).toStrictEqual(expected);
     });
   });
 
@@ -106,7 +106,7 @@ describe("Tests for Javascript Prework", () => {
     ];
 
     test.each(cases)('%s', (arr, expected) => {
-      expect(showMultiplicativeAverage(arr)).toBeCloseTo(expected);
+      expect(showMultiplicativeAverage(arr)).toBe(expected);
     });
   });
 
@@ -117,7 +117,7 @@ describe("Tests for Javascript Prework", () => {
     ];
 
     test.each(cases)('%s, %s', (arr1, arr2, expected) => {
-      expect(multiplyList(arr1, arr2)).toBe(expected);
+      expect(multiplyList(arr1, arr2)).toStrictEqual(expected);
     });
   });
 
@@ -129,7 +129,7 @@ describe("Tests for Javascript Prework", () => {
     ];
 
     test.each(cases)('%s', (num, expected) => {
-      expect(sequence(num)).toBe(expected);
+      expect(sequence(num)).toStrictEqual(expected);
     });
   });
 
@@ -179,7 +179,7 @@ describe("Tests for Javascript Prework", () => {
       },
     ];
 
-    expect(processReleaseData(data)).toBe([
+    expect(processReleaseData(data)).toStrictEqual([
       {
         id: 70111470,
         title: 'Die Hard',
@@ -213,7 +213,7 @@ describe("Tests for Javascript Prework", () => {
     ];
 
     test.each(cases)('%s', (word, list, expected) => {
-      expect(anagram(word, list)).toBe(expected);
+      expect(anagram(word, list)).toStrictEqual(expected);
     });
   });
 

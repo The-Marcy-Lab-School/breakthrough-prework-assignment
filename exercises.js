@@ -2,11 +2,11 @@ function isRealPalindrome(str) {
   // Your code here...
 }
 
-function runningTotal(numbers) {
+function runningTotal(arr) {
   // Your code here...
 }
 
-function swap(phrase) {
+function swap(sentence) {
   // Your code here...
 }
 
@@ -18,11 +18,11 @@ function union(arr1, arr2) {
   // Your code here...
 }
 
-function firstRecurring(str) {
+function firstRecurring(word) {
   // Your code here...
 }
 
-function showMultiplicativeAverage(nums) {
+function showMultiplicativeAverage(arr) {
   // Your code here...
 }
 
@@ -30,31 +30,31 @@ function multiplyList(arr1, arr2) {
   // Your code here...
 }
 
-function sequence(n) {
+function sequence(num) {
   // Your code here...
 }
 
-function wordCap(str) {
+function wordCap(sentence) {
   // Your code here...
 }
 
-function processReleaseData(data) {
+function processReleaseData(newReleases) {
   // Your code here...
 }
 
-function octalToDecimal(str) {
+function octalToDecimal(numberString) {
   // Your code here...
 }
 
-function anagram(word, listOfWords) {
+function anagram(word, array) {
   // Your code here...
 }
 
-function triangle(angle1, angle2, angle3) {
+function triangle(a, b, c) {
   // Your code here...
 }
 
-function fridayThe13ths(date) {
+function fridayThe13ths(year) {
   // Your code here...
 }
 
